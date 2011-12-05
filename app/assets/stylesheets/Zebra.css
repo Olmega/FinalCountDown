@@ -1,0 +1,41 @@
+<style type="text/css">
+body {
+	background-color: #CCFFFF;
+}
+section {
+	background-color: #FFCC66;
+	height: 50px;
+	position: relative;
+}
+body {
+	background-color: #66CCFF;
+	/*position: relative;*/
+	min-height: 400px;
+	min-width: 400px;
+	top: 0px;
+	left: 101px;
+	right: 0px;
+	bottom: 0px;
+}	
+
+nav {
+	background-color: #FFFF66;
+	position: absolute;
+	min-height: 300px;
+	width: 100px;
+	bottom: 0px;
+	top: 0px;
+	left: 0px;
+}
+/*#temp {
+	position:relative;
+}
+*/
+/*footer{
+	background-color: #FFCC00;
+	height: 40px;
+	/*position: relative;
+	top: 0px;
+}
+*/
+</style>
