@@ -3,6 +3,9 @@ body {
 	background-color: #CCFFFF;
 }
 section {
+	margin-top: 1em;
+	font-size: 120%;
+	padding: 20px;
 	background-color: #FFCC66;
 
 }
