@@ -9,13 +9,6 @@ section {
 }
 body {
 	background-color: #66CCFF;
-	/*position: relative;*/
-	min-height: 400px;
-	min-width: 400px;
-	top: 0px;
-	left: 101px;
-	right: 0px;
-	bottom: 0px;
 }	
 
 nav {
@@ -36,6 +29,27 @@ nav {
 	height: 40px;
 	/*position: relative;
 	top: 0px;
+	
 }
 */
+a.signup_button{
+margin-left: auto;
+margin-right: auto;
+display: block;
+text-align: center;
+width: 190px;
+color: #fff;
+background: #005400;
+font-size: 150%;
+font-weight: bold;
+padding: 20px;
+}
+footer {
+text-align: center;
+margin-top: 10px;
+width: 710px;
+margin-left: auto;
+margin-right: auto;
+}
+
 </style>
