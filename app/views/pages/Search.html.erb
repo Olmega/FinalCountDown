@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Search the database</title>
+    </head>
+    <body>
+        <h1>search</h1>
+            <% for result in @results.resultElements %>
+ <h2><%= result.title %></h2>
+ <p><%= result.snippet %></p>
+ <p><a href="<%= result.URL %>"><%= result.URL %></a></p>
+<% end %>
+    </body>
+</html>
+
